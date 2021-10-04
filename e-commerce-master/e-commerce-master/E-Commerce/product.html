@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <title>E-commerce Website Single Product</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- CSS only -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="top-nav-bar">
+            <div class="search-box">
+                    <i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>
+                    <i class="fa fa-times" id="close-btn" onclick="closemenu()"></i>
+                <a href="index.html"><img src="img/logoc.png" class="logo"></a>
+                <input type="text" class="form-control">
+                <span class="input-group-text"><i class="fa fa-search"></i></span>
+            </div>
+            <div class="menu-bar">
+                <ul>
+                    <li><a href="#"><i class="fa fa-shopping-basket"></i></a></li>
+                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="#">Sign In</a></li>
+                    <!--video1-->
+                </ul>
+            </div>
+        </div>
+ 
+        <!----------Single Product----------->
+        <section class="single-product">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div id="product-slider" class="carousel slide carousel-fade" data-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="img/gr1.jpeg" class="d-block w-100">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/gr2.png" class="d-block w-100">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/gr3.jpg" class="d-block w-100">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/gr4.jpg" class="d-block w-100">
+                              </div>
+                              <a class="carousel-control-prev" href="#product-slider" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="carousel-control-next" href="#product-slider" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-7">
+                        <p class="new-arrival text-center">NEW</p>
+                        <h2>Jacket Black Kulit GreenLight</h2>
+                        <p>Product Code: IRS1234</p>
+ 
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+ 
+                            <p class="price">Rp.135.000</p>
+                            <p><b>Ketersediaan:</b>Tersedia</p>
+                            <p><b>Kondisi:</b>Baru</p>
+                            <p><b>Brand:</b>GreenLight</p>
+                            <label>Quantity:</label>
+                            <input type="text" value="1">
+                            <button type="button" class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+ 
+        <section class="product-description">
+            <div class="container">
+                <h6>Product Description</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus placeat sit veniam ex, quo tempora accusantium quia veritatis maiores optio doloremque deleniti alias odio dicta quaerat blanditiis! Vel, tempore dolor!
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi eos error tenetur itaque doloremque ab aliquam repellendus, molestias totam et earum voluptates nesciunt, id molestiae sed, dolor sint dolorum quia!
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione in incidunt facilis nostrum fugiat commodi fugit eveniet modi omnis laboriosam libero, ut explicabo soluta est odio ullam mollitia nihil cum.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat hic harum exercitationem ipsam distinctio optio molestias beatae odio nam, aliquam dicta dignissimos eos explicabo modi. Deleniti repellat tenetur sunt unde.
+                </p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde aliquam perferendis blanditiis ipsum perspiciatis provident, illum nemo culpa sunt pariatur. Beatae, rerum voluptates. Nobis voluptate unde nisi omnis, nam laborum.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam reiciendis accusantium veritatis at ipsa nobis, quisquam tempore voluptatem explicabo expedita doloremque ratione sequi. Cum, voluptas iusto. Beatae eos placeat provident!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia praesentium non aliquam commodi nisi fugiat omnis, vero dolor alias, repellat architecto numquam cumque quam ut voluptate ex animi explicabo minima.
+                </p>
+                <hr>
+            </div>
+ 
+            <div class="container">
+                <div class="title-box">
+                    <h2>Similar</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="product-top">
+                            <img src="img/gr5.jpg">
+                            <div class="overlay-right">
+                                <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                    <i class="fa fa-eye"></i>
+                                </button>
+                                <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                    <i class="fa fa-heart-o"></i>
+                                </button>
+                                <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <h3>Hoodie Jacket</h3>
+                            <h5>Rp.300.000</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="product-top">
+                            <img src="img/gr6.jpg">
+                            <div class="overlay-right">
+                                <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                    <i class="fa fa-eye"></i>
+                                </button>
+                                <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                    <i class="fa fa-heart-o"></i>
+                                </button>
+                                <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <h3>Black Casual</h3>
+                            <h5>Rp.350.000</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="product-top">
+                            <img src="img/gr7.jpg">
+                            <div class="overlay-right">
+                                <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                    <i class="fa fa-eye"></i>
+                                </button>
+                                <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                    <i class="fa fa-heart-o"></i>
+                                </button>
+                                <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <h3>Jaket Kulit Hitam</h3>
+                            <h5>Rp.250.000</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="product-top">
+                            <img src="img/gr8.jpg">
+                            <div class="overlay-right">
+                                <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                    <i class="fa fa-eye"></i>
+                                </button>
+                                <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                    <i class="fa fa-heart-o"></i>
+                                </button>
+                                <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <h3>Cardigan GreenLight</h3>
+                            <h5>Rp.300.000</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+ 
+        <section class="footer">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h1>Usefull Links</h1>
+                        <p>Privacy Policy</p>
+                        <p>Terms of Use</p>
+                        <p>Return Policy</p>
+                        <p>Discount Coupons</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h1>Company</h1>
+                        <p>About</p>
+                        <p>Contact</p>
+                        <p>Career</p>
+                        <p>Affiliate</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h1>Follow Us On</h1>
+                        <p><i class="fa fa-facebook-official"></i> Facebook</p>
+                        <p><i class="fa fa-instagram"></i> Instagram</p>
+                        <p><i class="fa fa-twitter"></i> Twitter</p>
+                        <p><i class="fa fa-youtube-play"></i> Youtube</p>
+                    </div>
+                    <div class="col-md-3 footer-image">
+                        <h1>Download App</h1>
+                        <img src="img/vb.png">
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Made with <i class="fa fa-heart-o"></i>by Mora Hakim</p>
+            </div>
+         </section>
+        </body>
+</html>
