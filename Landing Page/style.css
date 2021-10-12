@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: black;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+.container{
+	margin: auto;
+	width: 1000px;
+  	text-align: center;
+  	position: relative;
+  	top: 25vh;
+}
+
+
+.name{
+	font-size: 50px;
+}
+
+.job{
+	margin-top: 20px;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.desc{
+	margin-top: 50px;
+}
+
+.button{
+	width: 130px;
+	border: 2px solid white;
+	padding: 20px;
+	display: inline-block;
+	margin-top: 50px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button:hover{
+	color: black;
+	background-color: white;
+}
