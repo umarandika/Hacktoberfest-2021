@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Dashboard by Tadeesha
+    </title>
+    <link rel="shortcut icon" href="./Images/Favicon.jpg" type="image/jpg">
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- BOXICONS -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- APP CSS -->
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+        <div class="sidebar-logo">
+            <img src="./Images/BOC_logo.png" alt="Comapny logo">
+            <div class="sidebar-close" id="sidebar-close">
+                <i class='bx bx-left-arrow-alt'></i>
+            </div>
+        </div>
+        <div class="sidebar-user">
+            <div class="sidebar-user-info">
+                <img src="./Images/user-image-3.png" alt="User picture" class="profile-image">
+                <div class="sidebar-user-name">
+                    Tadeesha Nithesh
+                </div>
+            </div>
+            <button class="btn btn-outline">
+                <i class='bx bx-log-out bx-flip-horizontal'></i>
+            </button>
+        </div>
+        <!-- SIDEBAR MENU -->
+        <ul class="sidebar-menu">
+            <li>
+                <a href="#" class="active">
+                    <i class='bx bx-home'></i>
+                    <span>dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-shopping-bag'></i>
+                    <span>Bank Accounts</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-chart'></i>
+                    <span>Improvement</span>
+                </a>
+            </li>
+            <li class="sidebar-submenu">
+                <a href="#" class="sidebar-menu-dropdown">
+                    <i class='bx bx-user-circle'></i>
+                    <span>My account</span>
+                    <div class="dropdown-icon"></div>
+                </a>
+                <ul class="sidebar-menu sidebar-menu-dropdown-content">
+                    <li>
+                        <a href="#">
+                            edit profile
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            account settings
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            billing
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sidebar-submenu">
+                <a href="#" class="sidebar-menu-dropdown">
+                  <i class='bx bx-book'></i>
+                    <span>Cost Balance</span>
+                    <div class="dropdown-icon"></div>
+                </a>
+                <ul class="sidebar-menu sidebar-menu-dropdown-content">
+                    <li>
+                        <a href="#">
+                            Cost
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Adds
+                        </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                         Balance
+                      </a>
+                  </li>
+                </ul>
+            </li>
+            <li class="sidebar-submenu">
+                <a href="#" class="sidebar-menu-dropdown">
+                  <i class='bx bx-user'></i>
+                    <span>agents</span>
+                    <div class="dropdown-icon"></div>
+                </a>
+                <ul class="sidebar-menu sidebar-menu-dropdown-content">
+                    <li>
+                        <a href="#">
+                            Mahindi
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Ruchira
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Lasith
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-mail-send'></i>
+                    <span>mail</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-chat'></i>
+                    <span>chat</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-calendar'></i>
+                    <span>calendar</span>
+                </a>
+            </li>
+            <li class="sidebar-submenu">
+                <a href="#" class="sidebar-menu-dropdown">
+                    <i class='bx bx-cog'></i>
+                    <span>settings</span>
+                    <div class="dropdown-icon"></div>
+                </a>
+                <ul class="sidebar-menu sidebar-menu-dropdown-content">
+                    <li>
+                        <a href="#" class="darkmode-toggle" id="darkmode-toggle">
+                            darkmode
+                            <span class="darkmode-switch"></span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <!-- END SIDEBAR MENU -->
+    </div>
+    <!-- END SIDEBAR -->
+
+    <!-- MAIN CONTENT -->
+    <div class="main">
+        <div class="main-header">
+            <div class="mobile-toggle" id="mobile-toggle">
+                <i class='bx bx-menu-alt-right'></i>
+            </div>
+            <div class="main-title">
+                dashboard
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="row">
+                <div class="col-3 col-md-6 col-sm-12">
+                    <div class="box box-hover">
+                        <!-- COUNTER -->
+                        <div class="counter">
+                            <div class="counter-title">
+                                Total Users
+                            </div>
+                            <div class="counter-info">
+                                <div class="counter-count">
+                                    100,000
+                                </div>
+                                <i class='bx bx-user'></i>
+                            </div>
+                        </div>
+                        <!-- END COUNTER -->
+                    </div>
+                </div>
+                <div class="col-3 col-md-6 col-sm-12">
+                    <div class="box box-hover">
+                        <!-- COUNTER -->
+                        <div class="counter">
+                            <div class="counter-title">
+                                Adding Rate
+                            </div>
+                            <div class="counter-info">
+                                <div class="counter-count">
+                                    30.5%
+                                </div>
+                                <i class='bx bx-line-chart'></i>
+                            </div>
+                        </div>
+                        <!-- END COUNTER -->
+                    </div>
+                </div>
+                <div class="col-3 col-md-6 col-sm-12">
+                    <div class="box box-hover">
+                        <!-- COUNTER -->
+                        <div class="counter">
+                            <div class="counter-title">
+                                Costing Rate
+                            </div>
+                            <div class="counter-info">
+                                <div class="counter-count">
+                                    40%
+                                </div>
+                                <i class='bx bx-line-chart'></i>
+                            </div>
+                        </div>
+                        <!-- END COUNTER -->
+                    </div>
+                </div>
+                <div class="col-3 col-md-6 col-sm-12">
+                    <div class="box box-hover">
+                        <!-- COUNTER -->
+                        <div class="counter">
+                            <div class="counter-title">
+                                Opening Time
+                            </div>
+                            <div class="counter-info">
+                                <div class="counter-count">
+                                    24 x 7
+                                </div>
+                                <i class='bx bx-time'></i>
+                            </div>
+                        </div>
+                        <!-- END COUNTER -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3 col-md-6 col-sm-12">
+                    <!-- TOP PRODUCT -->
+                    <div class="box f-height">
+                        <div class="box-header">
+                            Top Accounts
+                        </div>
+                        <div class="box-body">
+                            <ul class="product-list">
+                                <li class="product-list-item">
+                                    <div class="item-info">
+                                        <img src="./Images/user-image-2.png" alt="Manager">
+                                        <div class="item-name">
+                                            <div class="product-name">SmartGen</div>
+                                            <div class="text-second">Adults</div>
+                                        </div>
+                                    </div>
+                                    <div class="item-sale-info">
+                                        <div class="text-second">Users</div>
+                                        <div class="product-sales">40579</div>
+                                    </div>
+                                </li>
+                                <li class="product-list-item">
+                                    <div class="item-info">
+                                        <img src="./Images/backpack.jpg" alt="product image">
+                                        <div class="item-name">
+                                            <div class="product-name">Ran Kekulu</div>
+                                            <div class="text-second">Children</div>
+                                        </div>
+                                    </div>
+                                    <div class="item-sale-info">
+                                        <div class="text-second">Users</div>
+                                        <div class="product-sales">4576</div>
+                                    </div>
+                                </li>
+                                <li class="product-list-item">
+                                    <div class="item-info">
+                                        <img src="./Images/headphone.jpg" alt="product image">
+                                        <div class="item-name">
+                                            <div class="product-name">14+</div>
+                                            <div class="text-second">Teens</div>
+                                        </div>
+                                    </div>
+                                    <div class="item-sale-info">
+                                        <div class="text-second">Users</div>
+                                        <div class="product-sales">9482</div>
+                                    </div>
+                                </li>
+                                <li class="product-list-item">
+                                    <div class="item-info">
+                                        <img src="./Images/sneaker.jpg" alt="product image">
+                                        <div class="item-name">
+                                            <div class="product-name">18+</div>
+                                            <div class="text-second">Youngers</div>
+                                        </div>
+                                    </div>
+                                    <div class="item-sale-info">
+                                        <div class="text-second">Users</div>
+                                        <div class="product-sales">30543</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- TOP PRODUCT -->
+                </div>
+                <div class="col-4 col-md-6 col-sm-12">
+                    <!-- CATEGORY CHART -->
+                    <div class="box f-height">
+                        <div class="box-body">
+                            <div id="category-chart"></div>
+                        </div>
+                    </div>
+                    <!-- END CATEGORY CHART -->
+                </div>
+                <div class="col-5 col-md-12 col-sm-12">
+                    <!-- CUSTOMERS CHART -->
+                    <div class="box f-height">
+                        <div class="box-header">
+                            Improvement
+                        </div>
+                        <div class="box-body">
+                            <div id="customer-chart"></div>
+                        </div>
+                    </div>
+                    <!-- END CUSTOMERS CHART -->
+                </div>
+                <div class="col-12">
+                    <!-- ORDERS TABLE -->
+                    <div class="box">
+                        <div class="box-header">
+                            Recent Customers
+                        </div>
+                        <div class="box-body overflow-scroll">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Customer</th>
+                                        <th>Date</th>
+                                        <th>CA status</th>
+                                        <th>Payment status</th>
+                                        <th>Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>#2345</td>
+                                        <td>
+                                            <div class="order-owner">
+                                                <img src="./Images/user-image-3.png" alt="user image">
+                                                <span>Tadeesha Nithesh</span>
+                                            </div>
+                                        </td>
+                                        <td>2021-08-30</td>
+                                        <td>
+                                            <span class="order-status order-ready">
+                                                Adding
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <div class="payment-status payment-pending">
+                                                <div class="dot"></div>
+                                                <span>Pending</span>
+                                            </div>
+                                        </td>
+                                        <td>LKR 50,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>#1834</td>
+                                        <td>
+                                            <div class="order-owner">
+                                                <img src="./Images/user-image-2.png" alt="user image">
+                                                <span>Wishwa Sulochana</span>
+                                            </div>
+                                        </td>
+                                        <td>2021-08-27</td>
+                                        <td>
+                                            <span class="order-status order-shipped">
+                                                Recieved
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <div class="payment-status payment-paid">
+                                                <div class="dot"></div>
+                                                <span>Recieved</span>
+                                            </div>
+                                        </td>
+                                        <td>LKR 12,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>#4751</td>
+                                        <td>
+                                            <div class="order-owner">
+                                                <img src="./Images/user-image-3.png" alt="user image">
+                                                <span>Mahinda Perera</span>
+                                            </div>
+                                        </td>
+                                        <td>2021-08-13</td>
+                                        <td>
+                                            <span class="order-status order-shipped">
+                                                added
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <div class="payment-status payment-paid">
+                                                <div class="dot"></div>
+                                                <span>Added</span>
+                                            </div>
+                                        </td>
+                                        <td>LKR 32,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>#546</td>
+                                        <td>
+                                            <div class="order-owner">
+                                                <img src="./Images/user-image-2.png" alt="user image">
+                                                <span>Sumith Fernando</span>
+                                            </div>
+                                        </td>
+                                        <td>2021-07-09</td>
+                                        <td>
+                                            <span class="order-status order-shipped">
+                                                Added
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <div class="payment-status payment-paid">
+                                                <div class="dot"></div>
+                                                <span>Added</span>
+                                            </div>
+                                        </td>
+                                        <td>LKR 100,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>#2345</td>
+                                        <td>
+                                            <div class="order-owner">
+                                                <img src="./Images/user-image-3.png" alt="user image">
+                                                <span>Roopasinghe Illeperuma</span>
+                                            </div>
+                                        </td>
+                                        <td>2021-07-15</td>
+                                        <td>
+                                            <span class="order-status order-shipped">
+                                                Recieved
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <div class="payment-status payment-paid">
+                                                <div class="dot"></div>
+                                                <span>Recieved</span>
+                                            </div>
+                                        </td>
+                                        <td>LKR 10,000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- END ORDERS TABLE -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END MAIN CONTENT -->
+
+    <div class="overlay"></div>
+
+    <!-- SCRIPT -->
+    <!-- APEX CHART -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <!-- APP JS -->
+    <script src="app.js"></script>
+
+</body>
+
+</html>
