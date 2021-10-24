@@ -1,0 +1,71 @@
+/* contact section styling */
+
+.contact .contact-content .column {
+    width: calc(50% - 30px);
+}
+
+.contact .contact-content .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contact .contact-content .left p {
+    text-align: justify;
+}
+
+.contact .contact-content .left .icons {
+    margin: 10px 0;
+}
+
+.contact .contact-content .row {
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+
+.contact .contact-content .row .info {
+    margin-left: 30px;
+}
+
+.contact .contact-content .row i {
+    font-size: 25px;
+    color: #f47932;
+}
+
+.contact .contact-content .info .head {
+    font-weight: 500;
+}
+
+.contact .contact-content .info .sub-title {
+    color: #333;
+}
+
+.contact .right {
+    display: flex;
+}
+
+.contact .contact-content .column.right {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* footer section styling */
+
+footer {
+    background: #111;
+    padding: 40px 23px;
+    color: #fff;
+    text-align: center;
+}
+
+footer span a {
+    color: #f47932;
+    text-decoration: none;
+}
+
+footer span a:hover {
+    text-decoration: underline;
+}
