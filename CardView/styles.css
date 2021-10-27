@@ -1,0 +1,85 @@
+body{
+    background: rgb(109, 168, 255);
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    text-align: center;
+}
+
+p{
+    font-size: 12px;
+}
+h1{
+    font-size: 25px;
+}
+.card1 {
+    background: rgb(169, 169, 255);
+    margin: 15px;
+    height: 250px;
+    width: 200px;
+    padding: 12px;
+    border-radius: 10px;
+}
+.card2 {
+    background: rgb(169, 169, 255);
+    margin: 15px;
+    height: 250px;
+    width: 200px;
+    padding: 12px;
+    border-radius: 10px;
+}
+.card3 {
+    background: rgb(169, 169, 255);
+    margin: 15px;
+    height: 250px;
+    width: 200px;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.card1:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    box-shadow: 50px;
+    border: 2px solid black;
+    background: none;
+    box-shadow: 10px 10px 2px 1px rgba(0, 0, 0, .25);
+}
+
+.card2:hover{
+    width: 300px;
+    transition: .5s;
+    box-shadow: 10px black;
+    background: rgb(135, 135, 255);
+    box-shadow: 10px 5px 1px 1px rgba(0, 0, 0, .25);
+}
+.container .card3:hover{
+    text-decoration-color: black;
+    text-transform: uppercase;
+    transition: .5s;
+    transform: rotate(1turn);
+    border-radius: 125px;
+    border:  2px dashed black;
+    box-shadow: 10px 5px 1px 1px rgba(0, 0, 0, .25);
+    margin-top: 100px;
+}
+.kotak {
+    width: 100px;
+    height: 100px;
+    background-color: rosybrown;
+    position: absolute;
+    left: 45%;
+    margin-top: 10px;
+    border-radius: 50px;
+    
+}
+.kotak:hover{
+    transition: .5s;
+    background: black;
+    margin-top: 30px;
+}
