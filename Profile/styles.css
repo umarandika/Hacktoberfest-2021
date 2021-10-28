@@ -1,0 +1,47 @@
+.container{
+    background: rgba(179, 179, 179, 0.4);
+    border: black;
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.bulat{
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    background: url(/image/Rifqi\ photo.jpeg);
+    background-size: cover;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.teks{
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+body{
+    background: oldlace;
+}
+
+.fab{
+    size: 200px;
+    height: 70px;
+    margin-left: 100px;
+    font-size:xx-large;
+}
+
+.container:hover{
+    transition: .5s;
+    background: none;
+    box-shadow: 10px 10px 1px 1px rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+}
