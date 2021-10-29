@@ -1,0 +1,27 @@
+<html>
+    <body>
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+            .web-section {
+                font-family: Electrolize;
+                padding: 50px;
+                background-color: white;
+                color: black;
+            }
+        </style>
+<div class="web-section">
+    <h1>Simple Website using only HTML</h1>
+    <h3><p>Welcome, </p></h3>
+    <p>Hi, I am <b>Lorem Ipsur</b>. This is a simple <i>HTML</i> website. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... </p></br>
+    <h3>About Me</h3>
+    <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... <b>Lorem Ipsur</b>, <b>Lorem</b></p></br>
+    <h3>My Experience and Achievements</h3>
+       <p><li><b>2000 - 2099</b> - Lorem Ipsur</li></p>
+       <p><li><b>2000 - 2099</b> - Lorem Ipsur</li></p>
+       <p><li><b>2000 - 2099</b> - Lorem Ipsur</li></p>
+       <p><li><b>2000 - 2099</b> - Lorem Ipsur</li></p>
+       <p><li><b>2000</b> - Lorem Ipsur - Winner</li></p>
+</div>
+    </body>
+</html>
